@@ -1,7 +1,7 @@
-# Solarfox-API
+# API
 
 A central gateway to send consumption- or output data of various energy types
-to the Solarfox® platform.
+to the Solarfox® and Energyfox® platform.
 
 ## Table of contents
 
