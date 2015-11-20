@@ -1,8 +1,8 @@
-# Solarfox-API
+# API
 
 ## Übersicht
-Die **Solarfox-Input-API** ist eine zentrale Schnittstelle zur Annahme von
-Verbrauchs und/oder Ertragsdaten verschiedenster Energieformen.
+Eine zentrale Schnittstelle zur Annahme von Verbrauchs und/oder 
+Ertragsdaten verschiedenster Energieformen.
 
 ## Endpoint
 
@@ -130,13 +130,13 @@ Ein Request mit gesammelten Daten zweier Anlagen und jeweils mehreren Zählern k
 ```
 
 ### Response empfangen
-Wurde ein Request an die **Solarfox-Input-API** gestellt, sind drei Responses
+Wurde ein Request an die API gestellt, sind drei Responses
 möglich:
 
 - `success`: Written to db (HTTP Status Code 200)
 
    In diesem Fall wurden die Verbrauchs- oder Ertragsdaten erfolgreich an die
-   **Solarfox-Input-API** übertragen und gespeichert
+   API übertragen und gespeichert
 
 - `error`: Bad request oder Invalid JSON (HTTP Status Code 400)
 
@@ -190,7 +190,7 @@ Weitere Typen können nach Anfrage hinzugfügt werden.
 
 ## Restriktionen
 * Pro Stunde können 1800 Requests über einen freigeschalteten Nutzer
-  (Sicherheitstoken) an die **Solarfox-Input-API** gestellt werden. Zusätzlich
+  (Sicherheitstoken) an die API gestellt werden. Zusätzlich
   wird die IP Adresse jedes Requests geloggt.
 * Die maximale Größe eines Requests beträgt 32kb
 
