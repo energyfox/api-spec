@@ -23,8 +23,8 @@ Ein minimaler Request hat folgende Struktur:
       "type": "<TYPE>",
       "readings": [
         {
-          "timestamp": "<TIMESTAMP>",
-          "value": "<VALUE>"
+          "timestamp": <TIMESTAMP>,
+          "value": <VALUE>
         }
       ]
     }
@@ -91,14 +91,14 @@ Ein Request mit gesammelten Daten zweier Anlagen und jeweils mehreren Zählern k
     "<METER_NAME>": {
       "type": "<TYPE>",
       "readings": [
-        {"timestamp": "<TIMESTAMP>", "value": "<VALUE>"}
+        {"timestamp": <TIMESTAMP>, "value": <VALUE>}
         // ...
       ]
     },
     "<METER_NAME>": {
       "type": "<TYPE>",
       "readings": [
-        {"timestamp": "<TIMESTAMP>", "value": "<VALUE>"}
+        {"timestamp": <TIMESTAMP>, "value": <VALUE>}
         // ...
       ]
     }
@@ -107,21 +107,21 @@ Ein Request mit gesammelten Daten zweier Anlagen und jeweils mehreren Zählern k
     "<METER_NAME>": {
       "type": "<TYPE>",
       "readings": [
-        {"timestamp": "<TIMESTAMP>", "value": "<VALUE>"}
+        {"timestamp": <TIMESTAMP>, "value": <VALUE>}
         // ...
       ]
     },
     "<METER_NAME>": {
       "type": "<TYPE>",
       "readings": [
-        {"timestamp": "<TIMESTAMP>", "value": "<VALUE>"}
+        {"timestamp": <TIMESTAMP>, "value": <VALUE>}
         // ...
       ]
     },
     "<METER_NAME>": {
       "type": "<TYPE>",
       "readings": [
-        {"timestamp": "<TIMESTAMP>", "value": "<VALUE>"}
+        {"timestamp": <TIMESTAMP>, "value": <VALUE>}
         // ...
       ]
     }
