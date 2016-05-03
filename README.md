@@ -31,8 +31,8 @@ A minimal request has the following structure:
       "type": "<TYPE>",
       "readings": [
         {
-          "timestamp": "<TIMESTAMP>",
-          "value": "<VALUE>"
+          "timestamp": <TIMESTAMP>,
+          "value": <VALUE>
         }
       ]
     }
@@ -95,14 +95,14 @@ look like this:
     "<METER_NAME>": {
       "type": "<TYPE>",
       "readings": [
-        {"timestamp": "<TIMESTAMP>", "value": "<VALUE>"}
+        {"timestamp": <TIMESTAMP>, "value": <VALUE>}
         // ...
       ]
     },
     "<METER_NAME>": {
       "type": "<TYPE>",
       "readings": [
-        {"timestamp": "<TIMESTAMP>", "value": "<VALUE>"}
+        {"timestamp": <TIMESTAMP>, "value": <VALUE>}
         // ...
       ]
     }
@@ -111,21 +111,21 @@ look like this:
     "<METER_NAME>": {
       "type": "<TYPE>",
       "readings": [
-        {"timestamp": "<TIMESTAMP>", "value": "<VALUE>"}
+        {"timestamp": <TIMESTAMP>, "value": <VALUE>}
         // ...
       ]
     },
     "<METER_NAME>": {
       "type": "<TYPE>",
       "readings": [
-        {"timestamp": "<TIMESTAMP>", "value": "<VALUE>"}
+        {"timestamp": <TIMESTAMP>, "value": <VALUE>}
         // ...
       ]
     },
     "<METER_NAME>": {
       "type": "<TYPE>",
       "readings": [
-        {"timestamp": "<TIMESTAMP>", "value": "<VALUE>"}
+        {"timestamp": <TIMESTAMP>, "value": <VALUE>}
         // ...
       ]
     }
