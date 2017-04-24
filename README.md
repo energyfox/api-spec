@@ -16,7 +16,7 @@ to the Solarfox® and Energyfox® platform.
 ## Endpoint
 
 Each request should be sent to the following URL:
-`http://api.solar-fox.com/import`.
+`https://api.solar-fox.com/import`.
 
 ## Request
 

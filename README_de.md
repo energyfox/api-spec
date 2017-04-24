@@ -7,7 +7,7 @@ Ertragsdaten verschiedenster Energieformen.
 ## Endpoint
 
 Alle Energiedaten werden an folgende URL gesendet:
-`http://api.solar-fox.com/import`.
+`https://api.solar-fox.com/import`.
 
 ## Senden von Daten
 
