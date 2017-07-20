@@ -182,6 +182,58 @@ The following data types are currently supported:
 
 - `ELECTRICITY_GENERATION_POWER`:
   See `ELECTRICITY_CONSUMPTION_POWER`
+  
+- `ELECTRICITY_GRIDIN_ENERGY_ABSOLUTE`:
+  Data with this type should have the unit `Wh` (watt-hours) and represent the 
+  total amount fed into grid.
+
+- `ELECTRICITY_GRIDIN_ENERGY_DELTA`:
+  Data with this type describe the change of the total amount fed into grid 
+  since the last reading and should have the unit `Wh` (watt-hours).
+  
+- `ELECTRICITY_GRIDIN_POWER`:
+  Data with this type represent the current power which gets fed into grid 
+  in `W` (watt).
+  
+- `ELECTRICITY_GRIDOUT_ENERGY_ABSOLUTE`:
+  Data with this type should have the unit `Wh` (watt-hours) and represent the 
+  total amount received from grid.
+
+- `ELECTRICITY_GRIDOUT_ENERGY_DELTA`:
+  Data with this type describe the change of the total amount received from grid 
+  since the last reading and should have the unit `Wh` (watt-hours).
+  
+- `ELECTRICITY_GRIDOUT_POWER`:
+  Data with this type represent the current power which gets received from grid 
+  in `W` (watt).
+  
+- `ELECTRICITY_BATIN_ENERGY_ABSOLUTE`:
+  Data with this type should have the unit `Wh` (watt-hours) and represent the 
+  total amount fed into the storage system.
+
+- `ELECTRICITY_BATIN_ENERGY_DELTA`:
+  Data with this type describe the change of the total amount fed into the storage 
+  system since the last reading and should have the unit `Wh` (watt-hours).
+  
+- `ELECTRICITY_BATIN_POWER`:
+  Data with this type represent the current power which gets fed into the storage
+  system in `W` (watt).
+  
+- `ELECTRICITY_BATOUT_ENERGY_ABSOLUTE`:
+  Data with this type should have the unit `Wh` (watt-hours) and represent the 
+  total amount received from the storage system.
+
+- `ELECTRICITY_BATOUT_ENERGY_DELTA`:
+  Data with this type describe the change of the total amount received from the 
+  storage system since the last reading and should have the unit `Wh` (watt-hours).
+  
+- `ELECTRICITY_BATOUT_POWER`:
+  Data with this type represent the current power which gets received from the 
+  storage system in `W` (watt).
+  
+- `ELECTRICITY_BAT_STATUS`:
+  Data with this type represent the current storage system load state and should have
+  the unit `%` (percent).
 
 More types can be added upon request.
 
